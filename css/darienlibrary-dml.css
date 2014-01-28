@@ -1,0 +1,28 @@
+/*********************************************
+ * FONTS
+ *********************************************/
+
+@font-face {
+	font-family: 'Conv_ChauPhilomeneOne-Regular';
+	src: local('☺'), url('../files/ChauPhilomeneOne-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: 'Conv_ChauPhilomeneOne-Regular', sans-serif;
+}
+
+.reveal h4 {
+	margin: 20px 0 20px 0;
+	color: #C967C5;
+}

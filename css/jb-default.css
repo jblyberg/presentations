@@ -1,15 +1,4 @@
 /*********************************************
- * FONTS
- *********************************************/
-
-@font-face {
-  font-family: 'Englebert';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Englebert'), local('Englebert-Regular'), url(../files/Englebert.woff) format('woff');
-}
-
-/*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
@@ -28,15 +17,21 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #B9C967;
-  font-family: 'Englebert', sans-serif;
-  line-height: 0.9em;
+  line-height: 1.2em;
   letter-spacing: 0.02em;
   text-transform: none;
   text-shadow: none;
 }
 
+/*********************************************
+ * CUSTOM STYLES
+ *********************************************/
+
 .reveal h1 {
   text-shadow: none;
 }
 
-
+.reveal img, .reveal video, .reveal iframe {
+max-width: 70%;
+max-height: 70%;
+}
